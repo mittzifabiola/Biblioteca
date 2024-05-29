@@ -4,7 +4,7 @@
         environment {
             REPO_URL = 'https://github.com/mittzifabiola/Biblioteca.git'
             BRANCH = 'main'
-            RECIPIENT = 'jpreciado24@ucol.mx'
+            RECIPIENT = 'preciadojairo82@gmail.com'
             EMAIL_SUBJECT = "Notificación de Construcción:"
             EMAIL_BODY = '''<!DOCTYPE html>
             <html lang="es">
