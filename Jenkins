@@ -2,7 +2,7 @@
         agent any
 
         environment {
-            REPO_URL = 'https://github.com/mittzifabiola/Biblioteca.git'
+            REPO_URL = 'git@github.com:mittzifabiola/Biblioteca.git'
             BRANCH = 'main'
             RECIPIENT = 'mrdonjuan@ucol.mx'
             EMAIL_SUBJECT = "Notificación de Construcción:"
