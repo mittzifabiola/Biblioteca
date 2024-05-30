@@ -8,7 +8,7 @@
 </head>
 <body>
   <div class="container mt-5">
-    <h1 class="mb-4">Biblioteca</h1>
+    <h1 class="mb-4">Biblioteca Jenkins</h1>
 
     <form id="libroForm" class="mb-4">
       <div class="form-group">
@@ -58,7 +58,7 @@
                 <td>${libro.autor}</td>
                 <td>${libro.precio}</td>
                 <td>
-                  <button class="btn btn-warning btn-sm edit-btn" data-id="${libro._id}">Editar</button>
+                  <button class="btn btn-danger btn-sm delete-btn" data-id="${libro._id}">Editar</button>
                   <button class="btn btn-danger btn-sm delete-btn" data-id="${libro._id}">Eliminar</button>
                 </td>
               </tr>
